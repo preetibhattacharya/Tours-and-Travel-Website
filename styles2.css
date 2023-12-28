@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  
+  
+  html{
+    scroll-behavior:smooth;
+    
+  }
+  
+  .logo{
+  
+    width: 12%;
+    text-align:left;
+    
+  
+  }
+  
+  .logo img{  
+              border-radius:100%;
+              
+            }
+           
+  .navlist{
+            display:flex;
+           position: absolute;
+           right: 12px;
+           }
+  .rightnav{  width:30%;
+              text-align:right;
+             display:flex;
+           }
+  
+  
+  
+  
+  .navlist li{ list-style:none;
+               text-transform: uppercase;
+              font-weight: 720;
+        margin-right:3px;
+    white-space:nowrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    right:3px;
+    margin:15px 0;
+}
+  .navlist li a{ color:white;
+                  text-decoration:none;
+  padding:0 4%;}
+  .navlist li:hover{
+                      color:#1a97b4;
+                      opacity:0.76 ;
+                      background: none;
+                    }
+  
+  #search-bar{ 
+           
+           border: solid grey;
+           border-radius:3%;
+           max-width:65%;
+           color:white;
+          text-transform:none;
+          
+  
+              }
+  header{
+      background:rgba(0,0,0,0.1)url("frontimg.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    width:100%;
+   min-height:700px;
+  opacity: 0.78;
+    
+  
+  }
+  .navbar { display:flex;
+    position:sticky;
+    top:0;
+    cursor:pointer;
+    border:0;
+    width:100%;
+  }
+   .navlist li:hover{
+    background-color: white;
+    border-radius: 0.4rem;
+   }
+   .navlist li a:hover{
+    color:black;
+   }
+  .logo{
+    margin:13px 0;
+    margin-left: 22px;
+  }
+  .logo img{
+    height:40px;
+    width:40px;
+    border:3px solid white;
+    padding:4px;
+
+  } 
+  
+  .navlist li a{
+    padding: 8px 20px;
+    margin-right:3px;
+  }
+  .title{
+    padding:0 20px;
+    margin-top: 180px;
+    text-align: center;
+    background:transparent;
+    
+  }
+  .title h1{
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 20%;
+    color: white;
+    padding:0 18px;
+    font-style:bold ;
+    font-size: 45px;
+  }
+  .form{
+    
+    background-color: aliceblue;
+    border-radius: 40px;
+    width:80%;
+    margin:50px auto;
+
+  }
+  .form form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:50px 10px;
+    flex:1 1 20%;
+    white-space: nowrap;
+
+  }
+  .form form input{
+    display:block;
+    border:none;
+    outline:none;
+    background:transparent ;
+    padding:10px 28px;
+  }
+  .form  form button{
+          background: #AF69EF;
+          height:55px;
+          width:55px;
+          border:0;
+          border-radius:50% ;
+          outline:none;
+          cursor:pointer;
+          padding:10px 28px;
+  }
+.form form button i{
+  font-size:35px ;
+  text-align: center;
+  font-weight: 600;
+  color:white;
+}
